@@ -1,5 +1,7 @@
-
-
+def stundent_details():
+ students =[]
+print("\n ======== WELCOME TO STUDENT FORM =======")
+print("\n=======Fill in all the neccesery  spaces======= ")
 name = input("Enter your full name: ")
 print("Your name is:", name)
 
@@ -54,7 +56,7 @@ def multiply():
     num3 = 32
     return (num3 + final) + num1
 
-print(multiply())
+print( multiply())
 
 
 
